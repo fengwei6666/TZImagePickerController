@@ -14,6 +14,7 @@
 #import "TZAssetCell.h"
 #import "UIView+Layout.h"
 #import "TZImageManager.h"
+#import "XZColorUtility.h"
 
 @interface TZImagePickerController () {
     NSTimer *_timer;
@@ -51,7 +52,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.needShowStatusBar = ![UIApplication sharedApplication].statusBarHidden;
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [XZColorUtility tableBgColor];
     self.navigationBar.barStyle = UIBarStyleBlack;
     self.navigationBar.translucent = YES;
     [TZImageManager manager].shouldFixOrientation = NO;
@@ -719,7 +720,7 @@
     [super viewDidLoad];
     [[PHPhotoLibrary sharedPhotoLibrary] registerChangeObserver:self];
     self.isFirstAppear = YES;
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [XZColorUtility tableBgColor];
     
     TZImagePickerController *imagePickerVc = (TZImagePickerController *)self.navigationController;
     UIBarButtonItem *cancelItem = [[UIBarButtonItem alloc] initWithTitle:imagePickerVc.cancelBtnTitleStr style:UIBarButtonItemStylePlain target:imagePickerVc action:@selector(cancelButtonClick)];
@@ -772,7 +773,7 @@
                 if (!self->_tableView) {
                     self->_tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
                     self->_tableView.rowHeight = 70;
-                    self->_tableView.backgroundColor = [UIColor whiteColor];
+                    self->_tableView.backgroundColor = [XZColorUtility tableBgColor];
                     self->_tableView.tableFooterView = [[UIView alloc] init];
                     self->_tableView.dataSource = self;
                     self->_tableView.delegate = self;
