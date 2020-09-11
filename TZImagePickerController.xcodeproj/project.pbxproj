@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12C120A1250B4ED400BE6164 /* XZColorUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C120A0250B4ED400BE6164 /* XZColorUtility.m */; };
-		12C120A2250B4EE500BE6164 /* XZColorUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C120A0250B4ED400BE6164 /* XZColorUtility.m */; };
+		12C120A6250B564D00BE6164 /* XZColorUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C120A4250B564C00BE6164 /* XZColorUtility.h */; };
+		12C120A7250B564D00BE6164 /* XZColorUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C120A5250B564D00BE6164 /* XZColorUtility.m */; };
+		12C120A8250B564D00BE6164 /* XZColorUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C120A5250B564D00BE6164 /* XZColorUtility.m */; };
 		6D32B9BD1CD83640005CE1E0 /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D32B9BC1CD83640005CE1E0 /* LxGridViewFlowLayout.m */; };
 		6D4608311DFFC60D004FB009 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4608301DFFC60D004FB009 /* TZGifPhotoPreviewController.m */; };
 		6D5358CD1D64600F00928CC6 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5358CC1D64600F00928CC6 /* NSBundle+TZImagePicker.m */; };
@@ -115,8 +116,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		12C1209F250B4ED400BE6164 /* XZColorUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZColorUtility.h; sourceTree = "<group>"; };
-		12C120A0250B4ED400BE6164 /* XZColorUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZColorUtility.m; sourceTree = "<group>"; };
+		12C120A4250B564C00BE6164 /* XZColorUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZColorUtility.h; sourceTree = "<group>"; };
+		12C120A5250B564D00BE6164 /* XZColorUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZColorUtility.m; sourceTree = "<group>"; };
 		6D12FC191D66B71E00182C44 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		6D12FC1A1D66B71E00182C44 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		6D32B9BB1CD83640005CE1E0 /* LxGridViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridViewFlowLayout.h; sourceTree = "<group>"; };
@@ -265,8 +266,6 @@
 				9019FD8C21EC25D7009ADEAE /* TZImageUploadOperation.m */,
 				6D32B9BB1CD83640005CE1E0 /* LxGridViewFlowLayout.h */,
 				6D32B9BC1CD83640005CE1E0 /* LxGridViewFlowLayout.m */,
-				12C1209F250B4ED400BE6164 /* XZColorUtility.h */,
-				12C120A0250B4ED400BE6164 /* XZColorUtility.m */,
 				9038D58F1C3974F0007DE549 /* TZTestCell.h */,
 				9038D5901C3974F0007DE549 /* TZTestCell.m */,
 				90020E1420F8840E00D3AB10 /* README.md */,
@@ -338,6 +337,8 @@
 				902938D71EE2D02C000F2F8F /* TZLocationManager.m */,
 				90EBF5D41C2E298000CB9BCC /* UIView+Layout.h */,
 				90EBF5D51C2E298000CB9BCC /* UIView+Layout.m */,
+				12C120A4250B564C00BE6164 /* XZColorUtility.h */,
+				12C120A5250B564D00BE6164 /* XZColorUtility.m */,
 				6D5358CB1D64600F00928CC6 /* NSBundle+TZImagePicker.h */,
 				6D5358CC1D64600F00928CC6 /* NSBundle+TZImagePicker.m */,
 				6DC358641CC8BAE300898D29 /* Resources */,
@@ -399,6 +400,7 @@
 				9F763A711FA0741D00D9E526 /* TZPhotoPreviewController.h in Headers */,
 				9F763A721FA0741D00D9E526 /* TZPhotoPreviewCell.h in Headers */,
 				9F763A701FA0741D00D9E526 /* TZAssetCell.h in Headers */,
+				12C120A6250B564D00BE6164 /* XZColorUtility.h in Headers */,
 				9F763A791FA0741D00D9E526 /* UIView+Layout.h in Headers */,
 				9F763A6F1FA0741D00D9E526 /* TZPhotoPickerController.h in Headers */,
 				9F763A751FA0741D00D9E526 /* TZProgressView.h in Headers */,
@@ -587,7 +589,7 @@
 				900EF0021C2BD7E400EA709B /* TZAssetCell.m in Sources */,
 				6DD0502B1DF659ED0057C78D /* TZProgressView.m in Sources */,
 				6D32B9BD1CD83640005CE1E0 /* LxGridViewFlowLayout.m in Sources */,
-				12C120A1250B4ED400BE6164 /* XZColorUtility.m in Sources */,
+				12C120A7250B564D00BE6164 /* XZColorUtility.m in Sources */,
 				6D4608311DFFC60D004FB009 /* TZGifPhotoPreviewController.m in Sources */,
 				900EF0161C2C134900EA709B /* TZPhotoPreviewCell.m in Sources */,
 				900E65871C2BB8D5003D9A9E /* ViewController.m in Sources */,
@@ -626,7 +628,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12C120A2250B4EE500BE6164 /* XZColorUtility.m in Sources */,
+				12C120A8250B564D00BE6164 /* XZColorUtility.m in Sources */,
 				901CC3FB21CB757500C55443 /* TZImageRequestOperation.m in Sources */,
 				9F763A501FA072E500D9E526 /* TZImagePickerController.m in Sources */,
 				9F763A521FA072E500D9E526 /* TZPhotoPickerController.m in Sources */,
